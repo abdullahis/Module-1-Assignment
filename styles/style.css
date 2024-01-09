@@ -1,3 +1,41 @@
+
+/* Shared Styles */
+
 *{
     font-family: 'Merriweather', serif;
+    margin-left: 0px;
+}
+
+/* Unique Styles */
+
+#first-article{
+    background-image: linear-gradient(180deg, #070211, transparent), url(../Resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 600px;
+    /* background-size: fixed;
+    background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three{
+    display: flex;
+    background-image:linear-gradient(to right, #070211, transparent), url(../Resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    /* background-size: fixed;
+    background-position: center; */
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.hid1{
+    color: #F00;
+}
+
+body > section{
+    margin-bottom: 40px;
 }
