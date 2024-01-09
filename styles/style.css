@@ -8,41 +8,41 @@
 
 /* Unique Styles */
 
+/* All Articles */
+
 article > section{
     margin-top: 120px;
 }
 
-#first-article{
+/* First Section Styles */
+
+#first-section{
     background-image: linear-gradient(180deg, #070211, transparent), url(../Resources/Banner\ Image.png);
     background-repeat: no-repeat;
     border-radius: 16px;
     height: 600px;
-    /* background-size: fixed;
-    background-position: center; */
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
 
+/* Section 3 Styles */
+
 .section-three{
     display: flex;
     background-image:linear-gradient(to right, #070211, transparent), url(../Resources/Vectorrr.png);
     background-repeat: no-repeat;
-    /* background-size: fixed;
-    background-position: center; */
     align-items: center;
     justify-content: center;
     height: 600px;
     border-radius: 16px;
 }
 
+/* Section 4 Styles */
+
 .hid1{
     color: #F00;
-}
-
-body > section{
-    margin-bottom: 40px;
 }
 
 .section-four{
@@ -54,6 +54,8 @@ body > section{
     border-radius: 16px;
 }
 
+/* Section 5 Styles */
+
 .section-five{
     height: 500px;
     display: flex;
@@ -61,6 +63,7 @@ body > section{
     justify-content: center;
 }
 
+/* Section 7 Styles */
 
 .section-seven{
     background-image: url(../Resources/Rectangle\ 1.png), url(../Resources/Rectangle\ 2.png);
@@ -69,6 +72,8 @@ body > section{
     margin-top: 100px;
     height: 661px;
 }
+
+/* Section 8 Styles */
 
 .slideshow{
     display: flex;
@@ -79,6 +84,8 @@ body > section{
     width: 396px;
     height: auto;
 }
+
+/* Section 9 Styles */
 
 .section-nine{
     border-radius: 16px;
@@ -115,6 +122,8 @@ input::placeholder{
     border: none;
     padding: 0px;
 }
+
+/* Styles For Footer */
 
 .footer-styles{
     background-color: #070211;
