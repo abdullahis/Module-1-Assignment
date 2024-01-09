@@ -48,3 +48,10 @@ body > section{
     justify-content: center; 
     border-radius: 16px;
 }
+
+.section-five{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
