@@ -55,3 +55,58 @@ body > section{
     align-items: center;
     justify-content: center;
 }
+
+
+.section-seven{
+    background-image: url(../Resources/Rectangle\ 1.png), url(../Resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right top, bottom;
+    margin-top: 100px;
+    height: 661px;
+}
+
+.slideshow{
+    display: flex;
+}
+
+.images{
+    margin: 12px 24px 12px 0px;
+    width: 396px;
+    height: auto;
+}
+
+.section-nine{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1280px;
+    height: 616px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#email{
+    height: 72px;
+    width: 438px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+}
+
+#scbtn{
+    background-color: #F00;
+    height: 72px;
+    width: 210px;
+    border-radius: 0px 50px 50px 0px;
+    margin-top: 50px;
+    border: none;
+    padding: 0px;
+}
