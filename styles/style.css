@@ -8,6 +8,10 @@
 
 /* Unique Styles */
 
+article > section{
+    margin-top: 120px;
+}
+
 #first-article{
     background-image: linear-gradient(180deg, #070211, transparent), url(../Resources/Banner\ Image.png);
     background-repeat: no-repeat;
@@ -18,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .section-three{
@@ -109,4 +114,20 @@ input::placeholder{
     margin-top: 50px;
     border: none;
     padding: 0px;
+}
+
+.footer-styles{
+    background-color: #070211;
+    height: 610px;
+    padding: 120px 140px 0px 140px;
+    color: #fff;
+    margin-top: 120px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.icons{
+    width: 64px;
+    height: auto;
+    margin: 24px;
 }
